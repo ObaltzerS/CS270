@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int sortdata[15] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+    int sortdata[15] = { 5, 3, 7, 2, 9, 1, 4, 6, 8, 10, 11, 12, 13, 14, 15 };
     int n = sizeof(sortdata) / sizeof(int);
     //calculate the size of list
     int temp, i, j, comps = 0, swaps = 0;
@@ -23,7 +23,7 @@ int main(){
                 //swap elements of list if the next element is larger
                 temp = sortdata[j+1]; 
                 sortdata[j+1] =  sortdata[j];
-                sortdata[j] = temp;
+            sortdata[j] = temp;
             }
         }
         for (int k = 0; k < n; k++){
