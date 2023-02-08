@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int sortdata[15] = { 5, 3, 7, 2, 9, 1, 4, 6, 8, 10, 11, 12, 13, 14, 15 };
+    int sortdata[15] = {15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
     int n = sizeof(sortdata) / sizeof(int);
     //calculate the size of list
     int temp, i, j, comps = 0, swaps = 0;
