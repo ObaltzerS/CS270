@@ -8,8 +8,6 @@ int sum(int num1, int num2){ // interface, what tells the user how to use the fu
     return num1 + num2;
 
 }
-
-
 void printstars(int width, int height){
     for(int i =0; i <= width; i++){
         for (int j =0; j<= height; j++){
@@ -17,6 +15,4 @@ void printstars(int width, int height){
         }
         cout << endl;
     }
-
-
 }
