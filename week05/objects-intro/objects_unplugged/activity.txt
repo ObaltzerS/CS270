@@ -1,0 +1,29 @@
+Objects Example
+An object combines data with functions known as methods that operate on the object's data.
+
+
+FitByte Alice;
+
+Alice.walk(5); // Alice walks 5 miles
+
+Alice.walk(7); // Alice walks 7 more miles
+
+cout << "Total miles walked: " << Alice.getMilesWalked() << endl;
+
+// Assume that we burn 100 calories per mile.
+cout << "Total calories burned: " << Alice.getCaloriesBurned() << endl;
+
+
+Un-plugged Activity
+
+Simulate this object by saying to your neighbor (who is simulating a smart watch/device thingy)
+
+Alice, let's walk 5 miles
+let's walk 7 miles
+Alice, how far did we walk today?
+
+Switch roles and repeat
+
+What information or data must the fitness watch remember?
+
+What other functions might it have?
