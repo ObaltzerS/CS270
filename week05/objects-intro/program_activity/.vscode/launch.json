@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/oliverbaltzer/Documents/GitHub/CS270/week05/objects-intro/program_activity",
+      "program": "/Users/oliverbaltzer/Documents/GitHub/CS270/week05/objects-intro/program_activity/build/Debug/outDebug"
+    }
+  ]
+}

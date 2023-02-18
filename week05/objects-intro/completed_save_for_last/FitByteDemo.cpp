@@ -13,8 +13,8 @@ int main()
 	Alice.walk(5);
 	
 	// (3) Call methods to get and print distance and calories
-	cout << "Distance walked today: " << Alice.getMilesWalked() << " miles." << endl;
-	cout << "Calories burned today: " << Alice.getCaloriesBurned() << endl;
+	std::cout << "Distance walked today: " << Alice.getMilesWalked() << " miles." << std::endl;
+	std::cout << "Calories burned today: " << Alice.getCaloriesBurned() << std::endl;
 	
 	return 0;
 }

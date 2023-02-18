@@ -14,7 +14,6 @@ FitByte::FitByte(){
     distance = 0.0f;
     calories = 0.0f;
 }
-    
 /*
  * reset
  * post-condition: Resets attributes distance to 0, calories to 0.
@@ -53,4 +52,8 @@ float FitByte::getCaloriesBurned() const{
  */
 float FitByte::getMilesWalked() const{
     return this -> distance;
+}
+
+int main(){
+    return 0;
 }

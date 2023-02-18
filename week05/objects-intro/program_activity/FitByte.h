@@ -53,8 +53,8 @@ public:
 // are visible only inside this FitByte class.
 
 private:
-    float distance;
-    float calories;
+  float distance;
+  float calories;
 
 }; //required semicolon
 

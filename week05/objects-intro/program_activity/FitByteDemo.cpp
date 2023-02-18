@@ -1,9 +1,11 @@
 #include <iostream>
 #include "FitByte.h"
 
+using namespace std;
+
 int main() 
 {
-  std::cout << "FitByte Marathon Walker!\n";
+    cout << "FitByte Marathon Walker!\n";
 	
 	// (1) Declare a FitByte object
 	FitByte Alice;
