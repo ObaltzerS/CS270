@@ -31,10 +31,12 @@ public:
 
 
 private:
-int distance[7];
-int currentDayIndex;
-int currentWeekIndex;
-int caloriesBurned;
+
+    int distance[7];
+    int currentDayIndex;
+    int currentWeekIndex;
+    int caloriesBurned;
+    
 };
 
 #endif

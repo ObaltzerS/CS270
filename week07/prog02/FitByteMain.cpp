@@ -33,8 +33,7 @@ int main(){
 
     
     cout << "total walked this week " << Fit.getWeekDistance() << endl;
-    cout << "current day distance " << Fit.getDayDistance() << endl;
-    cout << "current day " << Fit.getNumDays() << endl;
+
     
     return 0;
 }

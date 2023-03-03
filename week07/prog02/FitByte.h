@@ -35,10 +35,9 @@ public:
     float getWeekCalories() const;
 
 private:
-
-
-
-
+    int currentDayIndex;
+    float distance[7];
+    float calories[7];
 };
 
 #endif
