@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/oliverbaltzer/Documents/GitHub/CS270/week04/modules",
-      "program": "/Users/oliverbaltzer/Documents/GitHub/CS270/week04/modules/build/Debug/outDebug"
+      "cwd": "/Users/oliverbaltzer/Documents/GitHub/CS270",
+      "program": "/Users/oliverbaltzer/Documents/GitHub/CS270/build/Debug/outDebug"
     }
   ]
 }
