@@ -1,6 +1,6 @@
 
-#ifndef LETTERSTACK_H
-#define LETTERSTACK_H
+#ifndef LetterStack_H
+#define LetterStack_H
 
 
 class LetterStack

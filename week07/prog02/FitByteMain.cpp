@@ -33,6 +33,9 @@ int main(){
 
     
     cout << "total walked this week " << Fit.getWeekDistance() << endl;
+    cout << "total calories burned this week " << Fit.getWeekCalories() << endl;
+    cout << "calories on day 1 " << Fit.getCaloriesByDay(1) << endl;
+    cout << "distance on day 1 " << Fit.getDistanceByDay(1) << endl;
 
     
     return 0;

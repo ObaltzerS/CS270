@@ -22,6 +22,15 @@ void LetterStack::push(char dir){
 // pop from top of stack
 char LetterStack::pop(){
     char pop = letterStack[topIndex];
+    if (pop == 'N'){
+        pop = 'S';
+    } else if (pop == 'S'){
+        pop = 'N';
+    } else if (pop == 'E'){
+        pop = 'W';
+    } else if (pop == 'W'){
+        pop = 'E'; 
+    }
     this -> topIndex--;
     return pop;
 }
